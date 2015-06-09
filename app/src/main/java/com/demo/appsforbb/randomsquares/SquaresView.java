@@ -121,6 +121,7 @@ public class SquaresView extends View {
             @Override
             public void run() {
                 System.out.println("Handler run");
+                System.out.println("");
                 if (listRect.size() >= 0) {
                     invalidate();
                     hanlder.postDelayed(this, 10);
